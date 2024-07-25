@@ -17,3 +17,10 @@ python fine_tune.py --cf ./configs/{alexnet, resnet, vgg}/search/{model_name}_{d
 ```angular2html
 python exit_text.py --cf ./configs/{alexnet, resnet, vgg}/test/{model_name}_{dataset_name}_BC.yaml
 ```
+## Reference 
+@INPROCEEDINGS{Wang2023EarlyExitWC,
+  title={Early-Exit with Class Exclusion for Efficient Inference of Neural Networks},
+  author={Jing Wang and Bing Li and Grace Li Zhang},
+  journal={2024 IEEE 6th International Conference on AI Circuits and Systems (AICAS)},
+  year={2024}
+}
